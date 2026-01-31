@@ -15,7 +15,7 @@ The **AI-Based Fitness Level Predictor** bridge the gap between complex health d
 
 ## 🛠️ Tech Stack
 
-* **Backend:** Python 3.x, Flask
+* **Backend:** Python 3.11(stable), Flask
 * **Frontend:** HTML5, CSS3, JavaScript
 * **Logic:** Machine Learning algorithms for fitness classification
 
@@ -50,9 +50,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
 3. **Install dependencies:**
-*(Ensure you have a requirements.txt file or install Flask directly)*
+*(Ensure you have downloaded the 'requirements.txt' file as well)*
 ```bash
-pip install flask
+pip install -r requirements.txt
 
 ```
 
