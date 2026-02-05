@@ -65,7 +65,7 @@ python app.py
 
 
 5. **Access the App:**
-Open your browser and navigate to ['https://ai-based-fitness-level-predictor.onrender.com'](https://ai-based-fitness-level-predictor.onrender.com)
+Open your browser and navigate to ['https://ai-based-fitness-level-tracker.vercel.app'](https://ai-based-fitness-level-tracker.vercel.app/)
 
 ## 📊 How it Works
 
