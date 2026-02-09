@@ -131,7 +131,7 @@
 
 <!-- 🔷 RESULT -->
 <section id="result">
-     {% if result %}
+    {% if result %}
     <div class="card shadow p-4 mb-4" id="resultSection">
         <h4 class="text-center mb-3">Fitness Report</h4>
 
@@ -146,6 +146,21 @@
                 {{ result.fitness }}
             </span>
         </p>
+
+        <!-- Progress Bar (pending) -->
+    
+        <h5>AI-Based Suggestions</h5>
+        <ul>
+            {% for s in suggestions %}
+            <li>{{ s }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <script>
+        document.getElementById("resultSection").scrollIntoView({behavior: "smooth"});
+    </script>
+    {% endif %}
 </section>
 
 <!-- 🔷 DISCLAIMER -->
